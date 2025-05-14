@@ -1,10 +1,25 @@
-{
-    "id": "1",
-    "title": "Top Gun",
-    "posterUrl": "https://media.themoviedb.org/t/p/w440_and_h660_face/Ap7oNFQiC37i93hrFpH9FTcwux0.jpg",
-    "genre": ["Action", "Romantic"],
-    "rating": 8.8,
-    "year": 1986,
-    "description": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
-    "trailerUrl": "https://www.themoviedb.org/video/play?key=ArOMXELHiLw"
-}
+[
+    {
+        "id": "1",
+        "title": "Top Gun",
+        "posterUrl": "https://media.themoviedb.org/t/p/w440_and_h660_face/Ap7oNFQiC37i93hrFpH9FTcwux0.jpg",
+        "genre": ["Action", "Romantic"],
+        "rating": 8.8,
+        "year": 1986,
+        "description": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
+        "trailerUrl": "https://www.themoviedb.org/video/play?key=ArOMXELHiLw"
+    },
+
+    {
+         "id": "2",
+        "title": "WarFare",
+        "posterUrl": "https://media.themoviedb.org/t/p/w440_and_h660_face/hHlG4kyOrrtz1ZaiLBjE6umE4Hw.jpg",
+        "genre": ["Action", "Combat"],
+        "rating": 6.8,
+        "year": 2025,
+        "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+        "trailerUrl": "https://www.themoviedb.org/video/play?key=JER0Fkyy3tw"
+
+
+    }
+]
