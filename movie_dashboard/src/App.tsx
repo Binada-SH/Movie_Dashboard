@@ -17,15 +17,14 @@ function App() {
   const movies: Movie[] = movieData as Movie[];
   return (
     <div className="App">
-      <h1 className="wite_name">Cine Stream</h1>
       <div className="movie_container">
         {movies.map((movies) => (
           <div key={movies.id}>
-            <img src={movies.posterUrl} alt={movies.title} className="movie_poster" />
+            <img className="movie_poster" src={movies.posterUrl} alt={movies.title}/>
             <h2>{movies.title}</h2>
-            <p>{movies.genre.join(', ')}</p>
-            <p>{movies.description}</p>
-            <p>{movies.year}</p>
+            <p className='movie_genre'>{movies.genre.join(', ')}</p>
+            <p className='movie_description'>{movies.description}</p>
+            <p className='movie_year'>{movies.year}</p>
           </div>
         ))}
       </div>
