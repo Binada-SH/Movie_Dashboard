@@ -1,6 +1,7 @@
 import React from 'react';
 import movieData from './movies.json';
 import './App.css';
+import Drawer from './Components/Drawer/drawer';
 
 export interface Movie {
   id: string,
@@ -17,6 +18,7 @@ function App() {
   const movies: Movie[] = movieData as Movie[];
   return (
     <div className="App">
+      <Drawer/>
       <div className="movie_container">
         {movies.map((movies) => (
           <div key={movies.id}>
