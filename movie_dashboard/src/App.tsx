@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import movieData from './movies.json'
+import Drawer from './Components/drawer/drawer';
 
 export interface Movie {
     id: string;
@@ -19,7 +20,8 @@ function App() {
   const movies: Movie[] = movieData as Movie[];
 
   return (
-    <div className="app">
+    <div className='bg-black text-gray-600'>
+      <Drawer/>
       <div className="movie_container">
         {movies.map((movies) => (
           <div key={movies.id}>
