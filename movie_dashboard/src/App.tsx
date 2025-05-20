@@ -3,6 +3,7 @@ import './App.css'
 import movieData from './movies.json'
 import Drawer from './Components/drawer/drawer';
 import Search from './Components/search/search';
+import Navbar from './Components/navbar/navbar';
 
 export interface Movie {
     id: string;
@@ -26,6 +27,8 @@ function App() {
         <Drawer/>
       <div className='flex-1 flex-col'>
         <Search/>
+      <div className='flex-2 flex-col'>
+        <Navbar/>
       <div className="movie_container">
         {movies.map((movies) => (
           <div key={movies.id}>
@@ -38,6 +41,7 @@ function App() {
           </div>
         ))}
         </div>
+      </div>
       </div>
       </div>
     </div>
