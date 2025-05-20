@@ -25,9 +25,8 @@ function App() {
     <div className='bg-[#060606] w-full min-h-full '>
       <div className='flex h-screen'>
         <Drawer/>
-      <div className='flex-1 flex-col'>
+      <div className='flex flex-row'>
         <Search/>
-      <div className='flex-2 flex-col'>
         <Navbar/>
       <div className="movie_container">
         {movies.map((movies) => (
@@ -41,7 +40,6 @@ function App() {
           </div>
         ))}
         </div>
-      </div>
       </div>
       </div>
     </div>
