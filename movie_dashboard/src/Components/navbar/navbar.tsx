@@ -4,10 +4,10 @@ const navbar = () => {
   return (
     <div>
         <div>
-            <ul className='flex list-style-none gap-6 text-[#565656] font-[lato]'>
-                <li><a href="" className=''>Latest</a></li>
-                <li><a href="" className=''>Categories</a></li>
-                <li><a href="" className=''>Pending</a></li>
+            <ul className='flex list-style-none gap-10 text-[#565656] font-[lato] p-10'>
+                <li><a href="" className='hover:text-red-500'>Latest</a></li>
+                <li><a href="" className='hover:text-red-500'>Categories</a></li>
+                <li><a href="" className='hover:text-red-500'>Pending</a></li>
             </ul>
         </div>
       
