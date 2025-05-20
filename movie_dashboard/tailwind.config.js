@@ -6,10 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'dark-grey': '#0f0f0f',
-        'custom-red': '#DC2626',
-      },
+      colors: {},
+      fontFamily: {
+        jura: ['"Jura"', 'sans-serif'],
+      }
     },
   },
   plugins: [],

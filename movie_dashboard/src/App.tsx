@@ -20,7 +20,7 @@ function App() {
   const movies: Movie[] = movieData as Movie[];
 
   return (
-    <div className='bg-black text-gray-600'>
+    <div className='bg-[#0f0f0f] w-full min-h-full '>
       <Drawer/>
       <div className="movie_container">
         {movies.map((movies) => (
