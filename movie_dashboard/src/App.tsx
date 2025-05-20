@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import movieData from './movies.json'
 import Drawer from './Components/drawer/drawer';
+import Search from './Components/search/search';
 
 export interface Movie {
     id: string;
@@ -20,8 +21,11 @@ function App() {
   const movies: Movie[] = movieData as Movie[];
 
   return (
-    <div className='bg-[#0f0f0f] w-full min-h-full '>
-      <Drawer/>
+    <div className='bg-[#060606] w-full min-h-full '>
+      <div className='flex h-screen'>
+        <Drawer/>
+      <div className='flex-1 flex-col'>
+        <Search/>
       <div className="movie_container">
         {movies.map((movies) => (
           <div key={movies.id}>
@@ -33,6 +37,8 @@ function App() {
 
           </div>
         ))}
+        </div>
+      </div>
       </div>
     </div>
   )
